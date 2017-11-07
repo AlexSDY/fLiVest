@@ -1,0 +1,69 @@
+.right {
+	float 					: right;
+}
+
+button[data-target="#enterForm"] {
+	display 				: block;
+	width                   : 155px;
+	height  				: 62px;
+	margin 					: 0 auto;
+	padding 				: 0;
+	border 					: none;
+	background 				: url('/assets/img/button.png');
+	background-position 	: center;
+	outline 				: none;
+	cursor 					: pointer;
+}
+
+#enterForm h5.modal-title {
+	width 					: 100%;
+	text-align 				: center;
+	font-size 				: 1.5em;
+	font-weight 			: bold;
+	color 					: #339966;
+}
+
+#enterForm form {
+	border 					: 1px solid #CCCCCC;
+	padding 				: 1.1em;
+	-webkit-border-radius 	: 1%;
+	-moz-border-radius 		: 1%;
+	border-radius 			: 1%;
+}
+
+#enterForm #date {
+	background 				: none;
+}
+
+#enterForm .form-check-label span {
+	font-size 				: .85em;
+}
+
+#enterForm .save_order {
+	width 					: 35%;
+	margin 					: 1em auto;
+	font-size 				: 1.5em;
+	cursor 					: pointer;
+}
+
+#enterForm .form_clear {
+	font-size 				: .9em;
+	color 					: #CCCCCC;
+	cursor 					: pointer;
+}
+#enterForm #info {
+	display 				: none;
+}
+
+
+@media screen and (max-width: 500px) {
+	#enterForm .modal-title {
+		font-size 			: 1.1em !important;
+	}
+	#enterForm .form-check-label span {
+		font-size 			: .7em;
+	}
+	#enterForm .save_order {
+		font-size 			: .9em;
+	}
+}
